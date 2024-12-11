@@ -6,7 +6,7 @@ import Home from "./booking/home";
 import { Button } from "@mui/material";
 function App() {
   return (
-    <Router>
+    <Router basename="/barbershop">
       <div className="App">
         <Routes>
           {/* Route for the home page */}
